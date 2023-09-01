@@ -1,14 +1,18 @@
 import Image from 'next/image'
+import Navbar from './components/Navbar'
 import About from './components/About'
-import Hero from './components/Hero'
+import HeroSection from './components/HeroSection'
+
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-<h1>Hello World</h1>
+    {/* // <div> */}
 
-<Hero />
+<Navbar />
+<HeroSection />
 <About />
+    {/* // </div> */}
     </main>
   )
 }
