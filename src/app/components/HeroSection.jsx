@@ -4,6 +4,7 @@ import React from "react";
 import nyheim from "../../img/nyheim.png";
 import binaryworld from "../../img/binary-world.jpg";
 import Image from "next/image";
+import "./Navbar.css"
 // import { motion } from 'framer-motion';
 
 const HeroSection = () => {
