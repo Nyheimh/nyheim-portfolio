@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import HeroSection from './components/HeroSection'
 import Projects from './components/Projects'
+import Experience from './components/Experience'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
 <HeroSection />
 <About />
 <Projects />
+<Experience />
     {/* // </div> */}
     </main>
   )
