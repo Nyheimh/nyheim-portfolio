@@ -1,26 +1,36 @@
 [
     {
         "id": 1,
-        "title": "Project 1",
-        "description": "Description of Project 1",
-        "link": "https://example.com/project1"
+        "image": "https://i.imgur.com/ZVeQHv1.png",
+        "alt": "Plantlennial app",
+        "title": "Plantlennial",
+        "description": "Built using React, Ruby on Rails, and PostgreSQL.",
+        "site": "https://plantlennial.netlify.app/",
+        "github": "https://github.com/Nyheimh/Plantlennial"
     },
     {
         "id": 2,
-        "title": "Project 2",
-        "description": "Description of Project 2",
-        "link": "https://example.com/project2"
+        "image": "",
+        "alt": "Javascript Pros App",
+        "title": "JS Pros",
+        "description": "Open source contributions",
+        "site": "https://www.javascriptprosapp.com/",
+        "github": "https://github.com/CodeCoachJS/js_pro_main_site"
     },
     {
         "id": 3,
-        "title": "Project 2",
-        "description": "Description of Project 2",
-        "link": "https://example.com/project2"
+        "image": "https://i.imgur.com/YOUR_IMAGE_URL_3.png",
+        "alt": "How to Break Into Tech",
+        "title": "How to Break Into Tech",
+        "description": "Lead Up Podcast: Episode #33 w/ Nyheim Hunter",
+        "youtube": "https://www.youtube.com/watch?v=mT7bH1EBeZc"
     },
     {
         "id": 4,
-        "title": "Project 2",
-        "description": "Description of Project 2",
-        "link": "https://example.com/project2"
+        "image": "https://i.imgur.com/YOUR_IMAGE_URL_4.png",
+        "alt": "YouTube Project 2",
+        "title": "Unemployed to Software Engineer without Experience or Computer Science degree",
+        "description": "This is my journey of how I went from unemployed to a Software Engineer without experience or a Computer Science degree.",
+        "youtube": "https://www.youtube.com/watch?v=lCkOj08fEsY"
     }
 ]
