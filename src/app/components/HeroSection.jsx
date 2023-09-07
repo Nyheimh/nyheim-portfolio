@@ -27,7 +27,7 @@ const HeroSection = () => {
 
           <div>
             <h1 class="sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins sm:pl-16 pl-[2rem]">
-              Hi, I'm{" "}
+              Hi, I am
               <span className="sm:text-battleGray sm:text-[90px] text-eerieBlack text-[50px] font-mova font-extrabold uppercase">
                 Nyheim
               </span>
