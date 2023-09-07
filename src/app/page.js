@@ -10,8 +10,7 @@ import Contact from "./components/Contact";
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      {/* <Navbar /> */}
         <body>
           <div id="section1" className="text-white h-screen">
             <div className="container mx-auto flex items-center justify-center h-full">
@@ -34,8 +33,6 @@ export default function Home() {
             </div>
           </div>
         </body>
-        {/* <Contact /> */}
-      </main>
     </div>
   );
 }
