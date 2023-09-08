@@ -1,19 +1,26 @@
 /* styles/HeroSection.module.css */
 
 .hero {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-  }
-  
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.profile-image {
+  width: 200px; /* Adjust the size as needed */
+  /* border-radius: 50%; */
+  object-fit: cover;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+@media (max-width: 640px) {
   .profile-image {
-    width: 200px; /* Adjust the size as needed */
-    border-radius: 50%;
+    object-fit: contain;
+    width: 500px;
   }
-  
-  .heading {
-    font-size: 2rem;
-    margin-top: 20px;
-  }
-  
+}
