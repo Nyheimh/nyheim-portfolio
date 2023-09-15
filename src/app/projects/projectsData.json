@@ -1,16 +1,6 @@
 [
     {
         "id": 1,
-        "subtitle": "Website",
-        "image": "https://i.imgur.com/ZVeQHv1.png",
-        "alt": "Plantlennial app",
-        "title": "Plantlennial",
-        "description": "Built using React, Ruby on Rails, and PostgreSQL.",
-        "site": "https://plantlennial.netlify.app/",
-        "github": "https://github.com/Nyheimh/Plantlennial"
-    },
-    {
-        "id": 2,
         "subtitle": "Open Source",
         "image": "https://i.imgur.com/tk51Q0i.png",
         "alt": "Javascript Pros App",
@@ -20,7 +10,7 @@
         "github": "https://github.com/CodeCoachJS/js_pro_main_site"
     },
     {
-        "id": 3,
+        "id": 2,
         "subtitle": "Podcast",
         "image": "https://i.imgur.com/CdvPc6H.png",
         "alt": "How to Break Into Tech",
@@ -29,7 +19,7 @@
         "youtube": "https://www.youtube.com/watch?v=mT7bH1EBeZc"
     },
     {
-        "id": 4,
+        "id": 3,
         "subtitle": "Youtube",
         "image": "https://i.imgur.com/1N97Wkx.png",
         "alt": "YouTube",
