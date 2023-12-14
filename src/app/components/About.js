@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -7,14 +8,43 @@ const About = () => {
         Overview
       </h2>
 
-      <p class="first-line:uppercase first-line:tracking-widest
+      <p
+        class="first-line:uppercase first-line:tracking-widest
   first-letter:text-7xl first-letter:font-bold first-letter:text-black
   first-letter:mr-3 first-letter:float-left
-  ">
-Full-stack software engineer with over two years of experience in React, Ruby on Rails, TypeScript, Next.js, and React Native. I excel in problem-solving, thrive on innovation, and have a strong foundation in business communications and analysis.
+  "
+      >
+        Full-stack software engineer with over two years of experience in React,
+        Ruby on Rails, TypeScript, Next.js, and React Native. I excel in
+        problem-solving, thrive on innovation, and have a strong foundation in
+        business communications and analysis. My recent role at connectRN
+        involved crafting high-performing, scalable code, translating design
+        concepts into functional software, and seamlessly integrating
+        third-party libraries. I am passionate about continuous learning,
+        especially in frontend, backend, and mobile development. I am drawn to
+        impactful projects in areas like healthcare, education, and social
+        justice. Additionally, I prioritize diversity, equity, and inclusion
+        (DEI) and seek like-minded companies to collaborate with. I am eager to
+        connect with recruiters and fellow engineers who share my vision and
+        enthusiasm.
+      </p>
 
-My recent role at connectRN involved crafting high-performing, scalable code, translating design concepts into functional software, and seamlessly integrating third-party libraries. I am passionate about continuous learning, especially in frontend, backend, and mobile development. I am drawn to impactful projects in areas like healthcare, education, and social justice. Additionally, I prioritize diversity, equity, and inclusion (DEI) and seek like-minded companies to collaborate with. I am eager to connect with recruiters and fellow engineers who share my vision and enthusiasm.
-</p>
+      <div className="mt-4">
+        <a
+          href="https://github.com/nyheimh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub className="text-4xl mx-2 inline-block" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/nyheimhunter"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin className="text-4xl mx-2 inline-block" />
+        </a>
+      </div>
     </div>
   );
 };
