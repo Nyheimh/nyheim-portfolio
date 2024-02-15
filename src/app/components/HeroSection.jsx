@@ -2,7 +2,7 @@ import React from "react";
 import nyheim from "../../img/heem.png";
 import binaryworld from "../../img/binary-world.jpg";
 import Image from "next/image";
-import style from "./HeroSection.module.css"; // Import the CSS module
+import style from "./HeroSection.module.css";
 
 const HeroSection = () => {
   return (

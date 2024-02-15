@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import About from "./components/About";
 import HeroSection from "./components/HeroSection";
 import Projects from "./components/Projects";
