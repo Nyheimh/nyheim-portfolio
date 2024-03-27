@@ -15,7 +15,7 @@ const About = () => {
   "
       >
         Full-stack software engineer with over two years of experience in React,
-        Ruby on Rails, TypeScript, Next.js, and React Native. I excel in
+        Ruby on Rails, TypeScript, Next.js, React Native, & GoLang. I excel in
         problem-solving, thrive on innovation, and have a strong foundation in
         business communications and analysis. My recent role at connectRN
         involved crafting high-performing, scalable code, translating design
