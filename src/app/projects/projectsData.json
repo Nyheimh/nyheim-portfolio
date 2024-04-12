@@ -5,7 +5,7 @@
         "image": "/images/HappyTummy.png",
         "alt": "Website",
         "title": "Happy Tummy",
-        "description": "Recipe App ⚠️IN PROGRESS ⚠️",
+        "description": "Currently in progress.",
         "site": "https://happy-tummy-ten.vercel.app/",
         "github": "https://github.com/Nyheimh/HappyTummy"
     },
@@ -21,12 +21,12 @@
     },
     {
         "id": 3,
-        "subtitle": "Website",
-        "image": "/images/OH.png",
-        "alt": "Website",
-        "title": "Orchestra Health App",
-        "description": "Developed mobile and web application for Orchestra Health.",
-        "site": "https://www.tryorchestra.com/",
+        "subtitle": "Mobile App",
+        "image": "/images/InProgress.webp",
+        "alt": "Mobile App",
+        "title": "Pawsitive Pairing",
+        "description": "Mobile app in progress. ",
+        "site": "https://www.linkedin.com/in/nyheimhunter/",
         "github": "https://github.com/nyheimh"
     },
     {
