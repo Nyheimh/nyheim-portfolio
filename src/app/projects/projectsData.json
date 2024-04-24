@@ -54,7 +54,15 @@
         "image": "/images/Youtube.png",
         "alt": "YouTube",
         "title": "SWE Journey (Bootcamp to First Role)",
-        "description": "My journey of how I became a SWE.",
+        "description": "My first youtube video of how I attain my first full stack software engineer role.",
         "youtube": "https://www.youtube.com/watch?v=lCkOj08fEsY"
+    },
+    {
+        "id": 7,
+        "subtitle": "Fun",
+        "alt": "Fun activities",
+        "title": "Sky Diving",
+        "description": "My goal is to do things and live life without regrets.",
+        "youtube": "https://www.youtube.com/watch?v=62rwF-dGrzQ"
     }
 ]

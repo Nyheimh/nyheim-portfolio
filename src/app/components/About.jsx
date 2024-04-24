@@ -10,7 +10,7 @@ import {
 const About = () => {
   return (
     <div className="text-center">
-      <h2 className="text-eerieBlack font-black md:text-6xl sm:text-4xl xs:text-3xl text-xl font-poppins">
+      <h2 className="text-eerieBlack font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins sm:pl-16 pl-[2rem] text-center">
         Overview
       </h2>
 

@@ -3,31 +3,21 @@ import projectsData from "../projects/projectsData.json";
 
 function Projects() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 sm:mt-0">
-      <div className="sm:col-span-3">
-        <p className="sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins sm:pl-16 pl-[2rem]">
-          What I have worked on
-        </p>
-        <h2 className="text-eerieBlack font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins sm:pl-16 pl-[2rem]">
-          Projects
-        </h2>
-      </div>
-      {projectsData.map((project) => (
-        <div
-          key={project.id}
-          className="bg-white rounded-xl shadow-md overflow-hidden"
-        >
-          {project.image && (
+    <div className="mt-12 mb-12 ">
+      {" "}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6 mb-2 sm:mt-0">
+        <div className="sm:col-span-3">
+          <h2 className="text-eerieBlack font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins sm:pl-16 pl-[2rem] text-center">
+            Activities
+          </h2>
+        </div>
+        {projectsData.map((project) => (
+          <div
+            key={project.id}
+            className="bg-white rounded-xl shadow-md overflow-hidden"
+          >
             <div className="md:flex">
-              <div className="md:shrink-0">
-                <Image
-                  className="h-48 w-full object-cover md:h-full md:w-48"
-                  src={project.image}
-                  alt={project.alt}
-                  width={500}
-                  height={400}
-                />
-              </div>
+              <div className="md:shrink-0"></div>
               <div className="p-8">
                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
                   {project.subtitle}
@@ -70,9 +60,9 @@ function Projects() {
                 )}
               </div>
             </div>
-          )}
-        </div>
-      ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

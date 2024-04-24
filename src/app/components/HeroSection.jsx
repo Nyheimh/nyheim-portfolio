@@ -48,7 +48,7 @@ const HeroSection = () => {
               alt="nyheim"
               style={{
                 height: "unset",
-                left: "unset",
+                left: "25%",
                 top: "unset",
                 right: "unset",
                 width: "100%",
