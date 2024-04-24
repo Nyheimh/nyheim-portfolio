@@ -1,5 +1,11 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaFile,
+  FaGithub,
+  FaLinkedin,
+  FaReact,
+} from "react-icons/fa";
 
 const About = () => {
   return (
@@ -43,6 +49,20 @@ const About = () => {
           rel="noopener noreferrer"
         >
           <FaLinkedin className="text-4xl mx-2 inline-block" />
+        </a>
+        <a
+          href="mailto:nyheimhunter@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaEnvelope className="text-4xl mx-2 inline-block" />
+        </a>
+        <a
+          href="https://docs.google.com/document/d/1yuk1rhSaNBAsRx9ZwtPCUvCWK_6rpABqwdMATsidK5Y/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFile className="text-4xl mx-2 inline-block" />
         </a>
       </div>
     </div>
