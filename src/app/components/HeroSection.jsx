@@ -12,11 +12,11 @@ const HeroSection = () => {
         <Image
           src={binaryworld}
           alt="world map"
-          className="w-full h-full sm:block hidden object-cover"
+          className="w-full h-full object-cover"
         />
       </div>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen"></div>
-      <section className="relative flex sm:flex-row flex-col w-full h-screen mx-auto sm:bg-hero bg-hero-mobile overflow-hidden">
+      <section className="relative flex sm:flex-row flex-col w-full h-screen mx-auto sm:bg-hero bg-hero-mobile ">
         <div
           className={`absolute inset-0 sm:top-[250px] top-[150px] lg:top-[150px] xl:top-[250px] max-w-7xl mx-auto flex flex-row items-start justify-between gap-3`}
         >
@@ -43,10 +43,17 @@ const HeroSection = () => {
             className={`w-screen flex flex-col items-start justify-center ${style["w-full"]}`}
           >
             <Image
-              className={`absolute bottom-0 right-1/2 ${style["profile-image"]}`}
+              class={`absolute object-cover`}
               src={nyheim}
               alt="nyheim"
-              layout="fill"
+              style={{
+                height: "unset",
+                left: "unset",
+                top: "unset",
+                right: "unset",
+                width: "100%",
+                bottom: 0,
+              }}
             />
           </div>
         </div>
