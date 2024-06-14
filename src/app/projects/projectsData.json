@@ -1,6 +1,16 @@
 [
     {
         "id": 1,
+        "subtitle": "Mobile App",
+        "image": "/images/InProgress.webp",
+        "alt": "Mobile App",
+        "title": "Pawsitive Pairing",
+        "description": "Mobile app in progress. First demo available on watch the video. ",
+        "github": "https://github.com/nyheimh",
+        "youtube": "https://www.loom.com/share/8f7107c6dd434383a8e9a9f1d36dc186"
+    },
+    {
+        "id": 3,
         "subtitle": "Website",
         "image": "/images/HappyTummy.png",
         "alt": "Website",
@@ -18,16 +28,6 @@
         "description": "Web app to my favorite plants and trees.",
         "site": "https://plantlennial.vercel.app/",
         "github": "https://github.com/Nyheimh/Plantlennial"
-    },
-    {
-        "id": 3,
-        "subtitle": "Mobile App",
-        "image": "/images/InProgress.webp",
-        "alt": "Mobile App",
-        "title": "Pawsitive Pairing",
-        "description": "Mobile app in progress. ",
-        "site": "https://www.linkedin.com/in/nyheimhunter/",
-        "github": "https://github.com/nyheimh"
     },
     {
         "id": 4,
